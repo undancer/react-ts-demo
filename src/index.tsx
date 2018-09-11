@@ -4,8 +4,8 @@ import App from './App';
 import './index.css';
 import registerServiceWorker from './registerServiceWorker';
 import {createStore} from 'redux';
-import {enthusiasm} from './reducers/index';
-import {StoreState} from './types/index';
+import {enthusiasm} from './reducers';
+import {StoreState} from './types';
 import {Provider} from 'react-redux';
 import {EnthusiasmAction} from "./actions";
 

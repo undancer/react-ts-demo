@@ -1,6 +1,6 @@
 import Hello from '../components/Hello';
-import {decrementEnthusiasm, EnthusiasmAction, incrementEnthusiasm} from '../actions/';
-import {StoreState} from '../types/index';
+import {decrementEnthusiasm, EnthusiasmAction, incrementEnthusiasm} from '../actions';
+import {StoreState} from '../types';
 import {connect} from 'react-redux';
 import {Dispatch} from "redux";
 
